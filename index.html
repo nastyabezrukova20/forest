@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--подключаем плавный scroll start-->
+  <script src="libs/gsap/gsap.min.js" defer></script> <!--defer - чтобы загружался после body-->
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script> 
+  <script src="libs/gsap/ScrollSmoother.min.js" defer></script> 
+    <!--подключаем плавный scroll end-->
+  <script src="js/app.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="content">
+      <header class="main__header">
+        <div class="layers">
+          <div class="leayers__header">
+            <div class="leayers__caption">Welcome to Parallax</div>
+            <div class="layers__title">Fairy Firest</div>
+          </div>
+    
+          <div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+          <div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+          <div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+        </div>
+      </header>
+    
+      <article class="main__article" style="background-image: url(img/dungeon.jpg);">
+        <div class="main__article-content">
+          <h2 class="main__article-header">To be continued</h2>
+          <p class="main__article-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum sunt unde eius nobis consequatur nostrum sequi dolores eligendi temporibus recusandae, voluptatem deserunt sit fuga odit maiores porro assumenda eum aliquam asperiores et.</p>
+        </div>
+        <div class="copy">© WebDesign Master</div>
+      </article>
+    </div>
+  </div>
+
+</body>
+</html>
